@@ -372,6 +372,14 @@ a {
   text-transform: uppercase;
   font-family: "Gotham HTF", sans-serif; }
 
+.blog-heading {
+  font-weight: bold;
+  font-style: italic;
+  color: #1d3541;
+  font-size: 2.3rem; }
+  .blog-heading i {
+    color: white; }
+
 .sub-heading {
   font-size: 1.666666667rem;
   margin: 0;
@@ -405,6 +413,22 @@ main {
     max-width: 320px;
     margin: auto;
     margin-top: 1.666666667rem; }
+
+.a-post-about {
+  display: block;
+  text-transform: uppercase;
+  color: #00cca8;
+  text-align: center;
+  font-weight: bold;
+  font-size: .8rem; }
+
+.post-heading {
+  display: block;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 1rem; }
 
 /** Mixins for different animation long–hand options **/
 /** Mixin for keyframe syntax **/
@@ -601,6 +625,11 @@ main {
   padding-bottom: 0;
   color: white; }
 
+.intro--blog {
+  width: 100%;
+  background: #00cca8;
+  padding-bottom: 2.916666667rem; }
+
 .social {
   display: block;
   width: 100%;
@@ -618,7 +647,8 @@ main {
   font-size: 3rem;
   color: white;
   text-decoration: none;
-  vertical-align: middle; }
+  vertical-align: middle;
+  background: #1d3541; }
 
 .social-link--dribbble {
   background-color: #fc4f70; }
@@ -631,6 +661,55 @@ main {
 
 .social-link--instagram {
   background-color: #00cca8; }
+
+.blog {
+  padding-bottom: 3.3rem; }
+
+.post-blurb {
+  width: 100%;
+  max-width: 620px;
+  margin: auto;
+  padding-bottom: 1.666666667rem; }
+  .post-blurb p {
+    margin-top: 0;
+    margin-bottom: 1.666666667rem;
+    max-width: 240px; }
+
+.blog-nav {
+  max-width: 520px;
+  margin: auto;
+  padding-top: 2.5rem;
+  overflow: auto; }
+
+.button {
+  display: inline-block;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  padding: 1rem 1.2rem;
+  background: #1d3541;
+  text-transform: lowercase;
+  line-height: 1;
+  text-decoration: none; }
+  .button span {
+    font-size: .9rem;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+    margin-top: 3px; }
+
+.button--primary {
+  background: #00cca8; }
+
+.button--previous {
+  float: left; }
+  .button--previous span {
+    margin-right: .5rem; }
+
+.button--next {
+  float: right; }
+  .button--next span {
+    margin-left: .5rem; }
 
 /** Calculations used for converting grid metrics into unit-suffixed widths, don't change these unless you want something weird like an em-based container width **/
 /** Sassy maths to calculate the column widths, don't change this **/
@@ -2983,8 +3062,8 @@ main {
 */
 @font-face {
   font-family: "SSSymbolicons";
-  src: url("../webfonts/ss-symbolicons-line.eot");
-  src: url("../webfonts/ss-symbolicons-line.eot?#iefix") format("embedded-opentype"), url("../webfonts/ss-symbolicons-line.woff") format("woff"), url("../webfonts/ss-symbolicons-line.ttf") format("truetype"), url("../webfonts/ss-symbolicons-line.svg#SSSymboliconsLine") format("svg");
+  src: url("../webfonts/ss-pika.eot");
+  src: url("../webfonts/ss-pika.eot?#iefix") format("embedded-opentype"), url("../webfonts/ss-pika.woff") format("woff"), url("../webfonts/ss-pika.ttf") format("truetype"), url("../webfonts/ss-pika.svg#SSPika") format("svg");
   font-weight: 300;
   font-style: normal; }
 
