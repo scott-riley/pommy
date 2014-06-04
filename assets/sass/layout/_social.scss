@@ -1,0 +1,36 @@
+.social {
+  display: block;
+  width: 100%;
+  max-width: $layout-max-width;
+  margin: auto;
+  overflow: auto;
+}
+
+.social-link {
+  width: 25%;
+  float: left;
+  display: block;
+  line-height: 1;
+  padding: 4rem;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.social-link--dribbble {
+  background-color: $color-dribbble;
+}
+
+.social-link--twitter {
+  background-color: $color-twitter;
+}
+
+.social-link--flickr {
+  background-color: $color-flickr;
+}
+
+.social-link--instagram {
+  background-color: $color-instagram;
+}
