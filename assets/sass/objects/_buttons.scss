@@ -19,12 +19,20 @@
 
 .button--primary {
   background: $color-link;
+  &:hover {
+    background: darken($color-link, 10%);
+    color: white;
+  }
 }
 
 .button--previous {
   float: left;
   span {
     margin-right: .5rem;
+  }
+  &:hover {
+    background: darken($color-bg-standout, 10%);
+    color: white;
   }
 }
 

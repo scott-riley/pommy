@@ -1,7 +1,6 @@
 .social {
   display: block;
   width: 100%;
-  max-width: $layout-max-width;
   margin: auto;
   overflow: auto;
 }
@@ -10,28 +9,53 @@
   width: 25%;
   float: left;
   display: block;
-  line-height: 1.7;
+  line-height: 1;
   padding: 4rem 4rem 2.8rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   text-decoration: none;
   vertical-align: middle;
   background: $color-bg-standout;
-}
+} 
 
-.social-link--dribbble {
-  background-color: $color-dribbble;
-}
 
 .social-link--twitter {
   background-color: $color-twitter;
+  &:hover {
+    color: white;
+    background-color: darken($color-twitter, 10%);
+  }
 }
 
-.social-link--flickr {
-  background-color: $color-flickr;
+.social-link--blog {
+  background-color: $color-blog;
+  &:hover {
+    color: white;
+    background-color: darken($color-blog, 10%);
+  }
 }
 
 .social-link--instagram {
   background-color: $color-instagram;
+  &:hover {
+    color: white;
+    background-color: darken($color-instagram, 10%);
+  }
+}
+
+.social-link--sam {
+  background-color: $color-sam;
+  &:hover {
+    color: white;
+    background-color: darken($color-sam, 10%);
+  }
+}
+
+.social-link--user {
+  background-color: $color-user;
+  &:hover {
+    color: white;
+    background-color: darken($color-user, 10%);
+  }
 }
